@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Docker Deep Dive",
+    "author": "Nigel Poulton",
+    "category": "Docker",
+    "price": 699,
+    "rating": 5,
+    "status": "Available"
+  },
+  {
+    "id": 2,
+    "title": "The DevOps Handbook",
+    "author": "Gene Kim",
+    "category": "DevOps",
+    "price": 899,
+    "rating": 5,
+    "status": "Available"
+  },
+  {
+    "id": 3,
+    "title": "Kubernetes Up & Running",
+    "author": "Brendan Burns",
+    "category": "Kubernetes",
+    "price": 799,
+    "rating": 5,
+    "status": "Available"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Programming",
+    "price": 599,
+    "rating": 5,
+    "status": "Available"
+  },
+  {
+    "id": 5,
+    "title": "Terraform Up & Running",
+    "author": "Yevgeniy Brikman",
+    "category": "Terraform",
+    "price": 749,
+    "rating": 5,
+    "status": "Available"
+  },
+  {
+    "id": 6,
+    "title": "Linux Pocket Guide",
+    "author": "Daniel Barrett",
+    "category": "Linux",
+    "price": 499,
+    "rating": 4,
+    "status": "Available"
+  },
+  {
+    "id": 7,
+    "title": "Learning Python",
+    "author": "Mark Lutz",
+    "category": "Python",
+    "price": null,
+    "rating": 4,
+    "status": "Coming Soon"
+  },
+  {
+    "id": 8,
+    "title": "Google Cloud Cookbook",
+    "author": "Legorie Rajan",
+    "category": "GCP",
+    "price": null,
+    "rating": 5,
+    "status": "Not in Stock"
+  },
+  {
+    "id": 9,
+    "title": "Mastering Docker",
+    "author": "Russ McKendrick",
+    "category": "Docker",
+    "price": null,
+    "rating": 5,
+    "status": "Coming Soon"
+  },
+  {
+    "id": 10,
+    "title": "AWS Certified Solutions Architect",
+    "author": "Ben Piper",
+    "category": "AWS",
+    "price": 899,
+    "rating": 5,
+    "status": "Available"
+  }
+]

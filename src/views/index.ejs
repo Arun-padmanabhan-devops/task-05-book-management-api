@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>📚 Book Management System</h1>
+
+    <p>
+        Explore the latest DevOps, Cloud, Linux and Programming books
+    </p>
+
+</header>
+
+<div class="search-box">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search books...">
+
+</div>
+
+<div class="book-container">
+
+<% books.forEach(book => { %>
+
+<div class="card">
+
+    <div class="cover">
+        📘
+    </div>
+
+    <h2><%= book.title %></h2>
+
+    <p><strong>Author:</strong> <%= book.author %></p>
+
+    <p><strong>Category:</strong> <%= book.category %></p>
+
+    <p>
+
+        <% for(let i=0;i<book.rating;i++){ %>
+
+        ⭐
+
+        <% } %>
+
+    </p>
+
+    <% if(book.status==="Available"){ %>
+
+        <h3>₹ <%= book.price %></h3>
+
+        <span class="available">
+
+            ✅ Available
+
+        </span>
+
+    <% } else { %>
+
+        <h3>--</h3>
+
+        <span class="unavailable">
+
+            ❌ <%= book.status %>
+
+        </span>
+
+    <% } %>
+
+</div>
+
+<% }) %>
+
+</div>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
