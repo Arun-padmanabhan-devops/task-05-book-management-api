@@ -80,19 +80,19 @@ book-management-api/
 
 # 📊 Before vs After Comparison
 
-  Feature                    Before         After
-  -------------------------- -------------- ----------------
-  Base Image                 node:22        node:22-alpine
-  Build Type                 Single Stage   Multi Stage
-  Image Size                 **1.65 GB**    **246 MB**
-  Root User                  Yes            No
-  `.dockerignore`            No             Yes
-  Critical Vulnerabilities   **45**         **0**
-  High Vulnerabilities       **360**        **2**
-  Read-only Filesystem       No             Yes
-  CPU Limit                  No             Yes
-  Memory Limit               No             Yes
-  Linux Capabilities         Default        Dropped
+| Feature | Before | After |
+|---------|--------|-------|
+| Base Image | node:22 | node:22-alpine |
+| Build Type | Single Stage | Multi Stage |
+| Image Size | **1.65 GB** | **246 MB** |
+| Root User | Yes | No |
+| `.dockerignore` | No | Yes |
+| Critical Vulnerabilities | **45** | **0** |
+| High Vulnerabilities | **360** | **2** |
+| Read-only Filesystem | No | Yes |
+| CPU Limit | No | Yes |
+| Memory Limit | No | Yes |
+| Linux Capabilities | Default | Dropped |
 
 ------------------------------------------------------------------------
 
