@@ -33,7 +33,6 @@ The application is a simple **Book Management Web Application** built using **No
 
 # 📸 Application Preview
 
-> Replace the image below with your application screenshot.
 
 ![Book Management Application](screenshots/application-homepage.png)
 
@@ -167,7 +166,7 @@ Reduce Docker image size while following Docker image optimization best practice
 
 ### Image Size Comparison
 
-![Image Size Comparison](screenshots/Part1-Image-Optimization/image-size-comparison.png)
+![Image Size Comparison](screenshots/Part1-Image-Optimization/after-image-size.png)
 
 ---
 
@@ -526,22 +525,4 @@ Possible enhancements for this project include:
 
 **Arun**
 
-**DevOps Engineer**
 
-### Skills
-
-- Docker
-- Kubernetes
-- AWS
-- Google Cloud Platform (GCP)
-- Terraform
-- GitHub Actions
-- Linux
-- Bash
-- Networking
-
----
-
-## ⭐ If you found this project useful, consider giving it a star!
-
-This project demonstrates practical Docker optimization and security techniques that can be applied to production containerized applications.
